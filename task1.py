@@ -7,7 +7,7 @@ Play continues until they guess correctly at which point the computer tells them
 
 import math, random, os
 
-number = random.randint(1,100)
+number = random.randint(1,10000)
 
 guess = 0
 
@@ -15,7 +15,7 @@ guesscount = 0
 
 while guess != number:
     guess = int(input('Guess a number from 1-100: '))
-    if guess > 100 or guess < 1:
+    if guess > 10000 or guess < 1:
         print('Guess must be within 1-100')
     else:
         if guess < number:
