@@ -16,11 +16,11 @@ elif opp == 2:
 
 me = (input('Rock, Paper, or Scissors? '))
 
-if "Rock" in me:
+if "Rock" in me or "rock" in me:
     mechoice = "Rock"
-elif "Paper" in me:
+elif "Paper" in me or "paper" in me:
     mechoice = "Paper"
-elif "Scissors" in me:
+elif "Scissors" in me or "scissors" in me:
     mechoice = "Scissors"
 
 if mechoice == "Rock" and oppchoice == "Rock":
